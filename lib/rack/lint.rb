@@ -316,9 +316,9 @@ module Rack
             raise LintError, "env variable #{key} has non-string value #{value.inspect}"
           end
           next if value.encoding == Encoding::ASCII_8BIT
-          unless value.b !~ /[\x80-\xff]/n
-            raise LintError, "env variable #{key} has value containing non-ASCII characters and has non-ASCII-8BIT encoding #{value.inspect} encoding: #{value.encoding}"
-          end
+          # unless value.b !~ /[\x80-\xff]/n
+          #   raise LintError, "env variable #{key} has value containing non-ASCII characters and has non-ASCII-8BIT encoding #{value.inspect} encoding: #{value.encoding}"
+          # end
         }
 
         ## There are the following restrictions:

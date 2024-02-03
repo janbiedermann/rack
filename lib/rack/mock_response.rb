@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'cgi/cookie'
+# require 'cgi/cookie'
 require 'time'
 
 require_relative 'response'

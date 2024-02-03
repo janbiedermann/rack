@@ -2,7 +2,7 @@
 
 require_relative 'abstract/handler'
 require_relative 'abstract/request'
-require 'digest/md5'
+# require 'digest/md5'
 require 'base64'
 
 module Rack

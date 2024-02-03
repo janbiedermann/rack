@@ -4,7 +4,7 @@
 require 'uri'
 require 'fileutils'
 require 'set'
-require 'tempfile'
+# require 'tempfile'
 require 'time'
 
 require_relative 'query_parser'

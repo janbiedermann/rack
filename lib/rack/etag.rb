@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'digest/sha2'
+# require 'digest/sha2'
 
 require_relative 'constants'
 require_relative 'utils'

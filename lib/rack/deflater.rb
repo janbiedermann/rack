@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "zlib"
+# require "zlib"
 require "time"  # for Time.httpdate
 
 require_relative 'constants'

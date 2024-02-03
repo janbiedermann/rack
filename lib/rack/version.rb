@@ -14,10 +14,10 @@
 module Rack
   # The Rack protocol version number implemented.
   VERSION = [1, 3].freeze
-  deprecate_constant :VERSION
+  # deprecate_constant :VERSION
 
   VERSION_STRING = "1.3".freeze
-  deprecate_constant :VERSION_STRING
+  # deprecate_constant :VERSION_STRING
 
   # The Rack protocol version number implemented.
   def self.version

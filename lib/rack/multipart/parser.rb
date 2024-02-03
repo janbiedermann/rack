@@ -388,7 +388,7 @@ module Rack
       end
 
       CHARSET = "charset"
-      deprecate_constant :CHARSET
+      # deprecate_constant :CHARSET
 
       def tag_multipart_encoding(filename, content_type, name, body)
         name = name.to_s

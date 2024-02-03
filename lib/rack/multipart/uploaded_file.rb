@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'tempfile'
+# require 'tempfile'
 require 'fileutils'
 
 module Rack
